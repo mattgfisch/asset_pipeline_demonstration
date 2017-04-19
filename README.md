@@ -13,8 +13,20 @@ rails new appname --skip-sprockets
 ## Key Features
 
 ### Concatenation
+Reduces the number of assets loaded by combining all JS files into one JS file and all CSS files into one CSS file.
+
+This single file is called the 'manifest file'. Represented as application.js or application.css
 
 ### Compression
+Removes whitespace and comments from CSS files.
 
+"Uglifies" JavaScript (reduces unnecessary whitespace and performs other optimizations)
+
+### Pre-compilation of higher level languages
+Sass -> CSS
+CoffeeScript -> JavaScript
+
+## Example
+http://secret-shore-70824.herokuapp.com/
 
 
