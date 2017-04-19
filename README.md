@@ -8,7 +8,9 @@ Via sprockets-rails gem
 
 You can manually disable it upon rails app creation by executing the following on the command line:
 
+```
 rails new appname --skip-sprockets
+```
 
 ## Key Features
 
@@ -24,6 +26,7 @@ Removes whitespace and comments from CSS files.
 
 ### Pre-compilation of higher level languages
 Sass -> CSS
+
 CoffeeScript -> JavaScript
 
 ## Example
